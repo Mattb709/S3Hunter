@@ -60,4 +60,6 @@ python s3hunter.py
 ---
 
 ## **📜 License**  
-MIT License – Free for personal and commercial use.  
+MIT License – Free for personal and commercial use.
+
+## **Sample Output**
