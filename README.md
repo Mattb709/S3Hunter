@@ -55,12 +55,67 @@ python s3hunter.py
 
 ---
 
-## **📌 Notes & Troubleshooting**  
-- **Requires `s3scanner` in `PATH`** – Otherwise, you'll get `s3scanner not found`.  
- 
+Here’s the enhanced **Notes & Troubleshooting** section with direct browser URL formats for each provider, ready for your `README.md`:
+
 ---
 
+## 📌 Notes & Troubleshooting  
 
+### **1. Requires `s3scanner` in PATH**  
+If you get `s3scanner not found`:  
+```bash
+# Install (if missing):
+go install github.com/sa7mon/s3scanner@latest
+
+# Verify it's in PATH:
+s3scanner --version
+```
+
+---
+
+### **2. Manual Browser Access**  
+Replace `BUCKETNAME` in these URLs to check buckets directly:  
+
+#### **AWS S3**  
+```
+https://BUCKETNAME.s3.amazonaws.com/  
+https://BUCKETNAME.s3.[region].amazonaws.com/  # e.g., s3.us-east-1
+```
+
+#### **DigitalOcean Spaces**  
+```
+https://BUCKETNAME.[region].digitaloceanspaces.com/  # e.g., nyc3
+```
+
+#### **Google Cloud (GCP)**  
+```
+https://storage.googleapis.com/BUCKETNAME/   
+```
+
+#### **Scaleway**  
+*(Requires object path—try appending a file)*  
+```
+https://BUCKETNAME.[region].scw.cloud/example.txt  # e.g., fr-par
+```
+
+#### **DreamHost**  
+```
+https://BUCKETNAME.objects-[region].dream.io/  # e.g., us-east-1
+```
+
+#### **Linode**  
+```
+https://BUCKETNAME.[region].linodeobjects.com/  
+```
+
+---
+
+### **3. Common Errors**  
+- **"Access Denied"**: Bucket exists but is properly locked.  
+- **"NoSuchBucket"**: Bucket doesn’t exist (or was deleted).  
+- **Timeout**: Region mismatch—try different endpoints.  
+
+---
 
 ## **Sample Output**
 
