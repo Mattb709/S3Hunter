@@ -44,7 +44,7 @@ python s3hunter.py
 ---
 
 ## **🎯 Usage**  
-1. **Enter Prefixes** (e.g., `company,prod,test`)  
+1. **Enter Prefixes** - Comma seperated, no spaces (e.g., `company,prod,test`)  
 2. **(Optional) Add Suffixes** (e.g., `backup,storage,logs`)  
 3. **Select a Cloud Provider** (AWS, GCP, DigitalOcean, etc.)  
 4. **Click "Run Scan"** – Results appear in real-time!  
