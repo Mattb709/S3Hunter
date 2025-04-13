@@ -1,0 +1,8 @@
+#PREFIXES
+
+admin,backup,cloud,data,dev,prod,staging,test,web,app,assets,archive,config,database,export,files,images,logs,media,secure,private,internal,client,vendor,aws,gcp,azure,finance,hr,legal,marketing,sales,support,it,security,alpha,beta,global,regional,api,cdn,vpn,jenkins,gitlab,github,terraform,kubernetes,docker,artifacts,repo,packages
+
+
+#SUFFIXES
+
+backup,logs,storage,data,assets,media,archive,temp,config,secure,private,internal,dev,prod,test,qa,uat,live,beta,2024,2023,old,new,v1,v2,latest,us,eu,uk,east,west,secret,confidential,shared,restricted,origin,cdn,mirror,snapshot,dump,audit,report,analytics,db,sql,mongo,redis,bucket,blob,repository
