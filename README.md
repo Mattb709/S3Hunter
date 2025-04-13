@@ -23,7 +23,7 @@ export PATH=$PATH:~/go/bin  # Add to PATH if not already
 ```
 
 #### **Windows:**  
-- Download the latest `.exe` from [s3scanner releases](https://github.com/sa7mon/s3scanner/releases)  
+- Download the latest `release` from [s3scanner releases](https://github.com/sa7mon/s3scanner/releases)  
 - Place it in a directory included in your `PATH`  
 
 ---
@@ -40,7 +40,6 @@ sudo apt install python3-tk  # Only needed if GUI fails to open
 ```bash
 python s3hunter.py
 ```
-*(Works on Windows, macOS, and Linux!)*  
 
 ---
 
