@@ -60,9 +60,12 @@ python s3hunter.py
  
 ---
 
-## **📜 License**  
-MIT License – Free for personal and commercial use.
+
 
 ## **Sample Output**
 
+## **Disclaimer**
+This tool is for authorized security testing and educational purposes only. Never scan systems without explicit permission. The author accepts no liability for misuse of this software.
 
+## **📜 License**  
+MIT License – Free for personal and commercial use.
