@@ -55,10 +55,6 @@ python s3hunter.py
 
 ---
 
-Here’s the enhanced **Notes & Troubleshooting** section with direct browser URL formats for each provider, ready for your `README.md`:
-
----
-
 ## 📌 Notes & Troubleshooting  
 
 ### **1. Requires `s3scanner` in PATH**  
