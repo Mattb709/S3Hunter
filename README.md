@@ -8,7 +8,7 @@ A **user-friendly GUI** for [s3scanner](https://github.com/sa7mon/s3scanner) tha
 ✔ **Real-Time Results** – Live output with auto-scrolling  
 ✔ **Sort & Filter** – Organize results by bucket size (object count)  
 ✔ **Lightweight** – No bloated dependencies, just pure Python + `s3scanner`  
-
+![S3Hunter1](https://github.com/user-attachments/assets/97a7953a-27ec-495c-a253-bcafd5e4eb87)
 ---
 
 ## **🚀 Installation**  
@@ -63,5 +63,5 @@ python s3hunter.py
 MIT License – Free for personal and commercial use.
 
 ## **Sample Usage**
-![S3Hunter1](https://github.com/user-attachments/assets/97a7953a-27ec-495c-a253-bcafd5e4eb87)
+
 
