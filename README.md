@@ -62,4 +62,6 @@ python s3hunter.py
 ## **📜 License**  
 MIT License – Free for personal and commercial use.
 
-## **Sample Output**
+## **Sample Usage**
+![S3Hunter1](https://github.com/user-attachments/assets/97a7953a-27ec-495c-a253-bcafd5e4eb87)
+
