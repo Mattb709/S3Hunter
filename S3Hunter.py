@@ -108,7 +108,7 @@ def sort_results():
 
 # GUI Setup
 root = Tk()
-root.title("S3 Scanner GUI")
+root.title("S3Hunter")
 
 # Input Fields
 Label(root, text="Prefixes (comma-separated):").pack()
