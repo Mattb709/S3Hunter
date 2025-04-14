@@ -120,3 +120,8 @@ This tool is for authorized security testing and educational purposes only. Neve
 
 ## **📜 License**  
 MIT License – Free for personal and commercial use.
+
+## **TODOs for S3Hunter**
+
+- [ ] Add multi-threading for faster scans
+- [ ] Add support for rotating proxies (S3Hunter may experience rate-limiting when scanning batches of 100,000+ bucket names) 
