@@ -103,10 +103,15 @@ https://BUCKETNAME.objects-[region].dream.io/  # e.g., us-east-1
 ```
 https://BUCKETNAME.[region].linodeobjects.com/  
 ```
+### **3. Exfiltrate Bucket Contents**
+First install AWS CLI on your system and then from the command line run:
+```
+aws s3 sync s3://BUCKETNAME/ BUCKETNAME --no-sign-request  
+```
 
 ---
 
-### **3. Common Errors**  
+### **4. Common Errors**  
 - **"Access Denied"**: Bucket exists but is properly locked.  
 - **"NoSuchBucket"**: Bucket doesn’t exist (or was deleted).  
 - **Timeout**: Region mismatch—try different endpoints.  
