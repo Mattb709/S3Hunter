@@ -9,7 +9,8 @@ A **user-friendly GUI** for [s3scanner](https://github.com/sa7mon/s3scanner) tha
 ✔ **Sort & Filter** – Organize results by bucket size (object count)  
 ✔ **Lightweight** – No bloated dependencies, just pure Python + `s3scanner`  
 
-![S3Hunter1](https://github.com/user-attachments/assets/97a7953a-27ec-495c-a253-bcafd5e4eb87)
+![S3Image1](https://github.com/user-attachments/assets/643aebb5-aa5a-4e63-9c2b-88cb5790707f)
+
 ---
 
 ## **🚀 Installation**  
