@@ -120,7 +120,8 @@ aws s3 sync s3://BUCKETNAME/ BUCKETNAME --no-sign-request
 ---
 
 ## **Sample Output**
-![S3Hunter2](https://github.com/user-attachments/assets/0681e12e-9dc8-4f27-a869-3e17bed0a984)
+![S3Image2](https://github.com/user-attachments/assets/0c04c6b0-aa54-4512-8b41-7ccc195cbebf)
+
 
 ## **Disclaimer**
 This tool is for authorized security testing and educational purposes only. The author accepts no liability for misuse of this software.
