@@ -2,12 +2,14 @@
  
 A **user-friendly GUI** for [s3scanner](https://github.com/sa7mon/s3scanner) that helps security researchers and bug bounty hunters find **misconfigured S3 buckets** across multiple cloud providers.  
 
-### **Features**  
-✔ **Smart Bucket Generation** – Combine prefixes, suffixes, and delimiters automatically  
-✔ **Multi-Cloud Support** – AWS, GCP, DigitalOcean, Linode, and more  
-✔ **Real-Time Results** – Live output with auto-scrolling  
-✔ **Sort & Filter** – Organize results by bucket size (object count)  
-✔ **Lightweight** – No bloated dependencies, just pure Python + `s3scanner`  
+## **Features**
+✔ Smart Bucket Generation – Combine prefixes, suffixes, and delimiters automatically  
+✔ Multi-Cloud Support – AWS, GCP, DigitalOcean, Linode, and more  
+✔ Real-Time Results – Live output with auto-scrolling  
+✔ Sort & Filter – Organize results by bucket size (object count)  
+✔ Lightweight – No bloated dependencies, just pure Python + s3scanner  
+✔ Multi-Threaded – Faster scanning through parallel processing  
+✔ Proxy Rotation – Avoid rate limits with configurable proxy support  
 
 ![S3Image1](https://github.com/user-attachments/assets/643aebb5-aa5a-4e63-9c2b-88cb5790707f)
 
