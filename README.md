@@ -132,4 +132,4 @@ MIT License – Free for personal and commercial use.
 ## **TODOs for S3Hunter**
 
 - [x] ~~Add optional multi-threading for faster scans~~ *(Completed: Apr. 19 2025)*
-- [x] ~~Add support for rotating proxies (S3Hunter may experience rate-limiting when scanning batches of 100,000+ bucket names)~~ *(Completed: Apr. 19 2025)*
+- [x] ~~Add support for rotating proxies (S3Hunter may experience rate-limiting when multi-thread scanning batches of 100,000+ bucket names)~~ *(Completed: Apr. 19 2025)*
