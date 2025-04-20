@@ -13,8 +13,6 @@ A **user-friendly GUI** for [s3scanner](https://github.com/sa7mon/s3scanner) tha
 
 ![S3Image1](https://github.com/user-attachments/assets/643aebb5-aa5a-4e63-9c2b-88cb5790707f)
 
----
-
 ## **🚀 Installation**  
 
 ### **1. Install s3scanner (Required Backend)**  
