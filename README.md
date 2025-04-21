@@ -30,7 +30,7 @@ export PATH=$PATH:~/go/bin  # Add to PATH if not already
 
 ---
 
-### **2. Run S3Hunter (No Python Dependencies Needed!)**  
+### **2. Run S3Hunter**  
 The tool uses **built-in Python modules** (`tkinter`, `subprocess`, etc.).  
 
 #### **Linux (Debian/Ubuntu) - Fix Missing Tkinter:**  
@@ -104,7 +104,7 @@ https://BUCKETNAME.objects-[region].dream.io/  # e.g., us-east-1
 ```
 https://BUCKETNAME.[region].linodeobjects.com/  
 ```
-### **3. Exfiltrate Bucket Contents**
+### **3. Exfiltrate Bucket Contents with AWS CLI**
 First install AWS CLI on your system and then from the command line run:
 ```
 aws s3 sync s3://BUCKETNAME/ BUCKETNAME --no-sign-request  
